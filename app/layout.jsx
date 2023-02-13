@@ -67,7 +67,7 @@ export default function RootLayout({ children, params }) {
 							</div>
 							<Link
 								href="mailto:awesomecoder.dev@gmail.com"
-								className="absolute right-4 top-6 block sm:w-40 w-auto md:mx-6 px-5 py-3 transition-colors duration-300 bg-gray-100 rounded-md dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700"
+								className="absolute block right-4 top-6 md:hidden sm:w-40 w-auto md:mx-6 px-5 py-3 transition-colors duration-300 bg-gray-100 rounded-md dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700"
 							>
 								<div className="flex items-center justify-center -mx-1">
 									<p className="mx-1 text-sm text-gray-600 dark:text-white pointer-events-none hidden sm:block ">
