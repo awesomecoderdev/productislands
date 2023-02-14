@@ -10,7 +10,7 @@ export const metadata = {
 };
 
 export default function RootLayout({ children, params }) {
-	// console.log("params", params);
+	console.log("params", params);
 	return (
 		<html lang="en">
 			<body className="antialiased text-slate-500 dark:text-slate-400  bg-zinc-50 dark:bg-slate-900 h-full min-h-screen flex flex-col justify-between items-center ">
