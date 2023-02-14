@@ -10,14 +10,9 @@ export const metadata = {
 };
 
 export default function RootLayout({ children, params }) {
-	console.log("params", params);
+	// console.log("params", params);
 	return (
 		<html lang="en">
-			{/*
-        <head /> will contain the components returned by the nearest parent
-        head.js. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
-      */}
-			<head />
 			<body className="antialiased text-slate-500 dark:text-slate-400  bg-zinc-50 dark:bg-slate-900 h-full min-h-screen flex flex-col justify-between items-center ">
 				<header className="w-full bg-white dark:bg-gray-900">
 					<div className="container relative flex flex-col px-6 py-8 mx-auto">
