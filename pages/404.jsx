@@ -28,7 +28,7 @@ export default function Error() {
 							Page not found
 						</h1>
 						<p className="mt-4 text-gray-500 dark:text-gray-400">
-							Sorry, the page you are looking for doesn't
+							Sorry, the page you are looking for doesn&rsquo;t
 							exist.Here are some helpful links:
 						</p>
 
@@ -47,7 +47,6 @@ export default function Error() {
 								>
 									<path
 										strokeLinecap="round"
-										strokeLinecap="round"
 										d="M6.75 15.75L3 12m0 0l3.75-3.75M3 12h18"
 									/>
 								</svg>
@@ -62,11 +61,14 @@ export default function Error() {
 					</div>
 
 					<div className="relative w-full mt-12 lg:w-1/2 lg:mt-0">
-						<img
-							className="w-full max-w-lg lg:mx-auto"
-							src="https://merakiui.com/images/components/illustration.svg"
-							alt=""
-						/>
+						<div className="w-full max-w-lg lg:mx-auto">
+							<Image
+								src="https://merakiui.com/images/components/illustration.svg"
+								alt="Not Found"
+								fill={true}
+								className="z-10"
+							/>
+						</div>
 					</div>
 				</div>
 			</main>
