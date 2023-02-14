@@ -5,13 +5,6 @@ import Link from "next/link";
 import "@/app/globals.css";
 import Head from "@/app/head";
 
-export const metadata = {
-	title: {
-		default: "Bangla News Today ",
-		template: "%s | Bangla News Today",
-	},
-};
-
 export default function Error() {
 	return (
 		<>
@@ -25,7 +18,15 @@ export default function Error() {
 							404 error
 						</p>
 						<h1 className="mt-3 text-2xl font-semibold text-gray-800 dark:text-white md:text-3xl">
-							Page not found
+							<span className="mx-0.5 text-transparent bg-gradient-to-br bg-clip-text from-teal-500 via-indigo-500 to-sky-500 dark:from-teal-200 dark:via-indigo-300 dark:to-sky-500">
+								Page
+							</span>
+							<span className="mx-0.5 text-transparent bg-gradient-to-tr bg-clip-text from-primary-500 via-pink-500 to-red-500 dark:from-sky-300 dark:via-pink-300 dark:to-red-500">
+								not
+							</span>
+							<span className="mx-0.5 text-transparent bg-gradient-to-tr bg-clip-text from-primary-500 via-pink-500 to-red-500 dark:from-sky-300 dark:via-pink-300 dark:to-red-500">
+								found
+							</span>
 						</h1>
 						<p className="mt-4 text-gray-500 dark:text-gray-400">
 							Sorry, the page you are looking for doesn&rsquo;t
@@ -53,10 +54,6 @@ export default function Error() {
 
 								<span>Go back</span>
 							</Link>
-							{/*
-							<button className="w-1/2 px-5 py-2 text-sm tracking-wide text-white transition-colors duration-200 bg-blue-500 rounded-lg shrink-0 sm:w-auto hover:bg-blue-600 dark:hover:bg-blue-500 dark:bg-blue-600">
-								Take me home
-							</button> */}
 						</div>
 					</div>
 
@@ -65,8 +62,10 @@ export default function Error() {
 							<Image
 								src="https://merakiui.com/images/components/illustration.svg"
 								alt="Not Found"
-								fill={true}
 								className="z-10"
+								height={1000}
+								width={1000}
+								priority
 							/>
 						</div>
 					</div>
