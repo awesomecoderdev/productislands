@@ -9,6 +9,15 @@ export default function Custom404() {
 	return (
 		<>
 			<Head>
+				<meta
+					content="width=device-width, initial-scale=1"
+					name="viewport"
+				/>
+				<meta
+					name="description"
+					content="Discover a World of Possibilities - ProductIslands, Your Non-Stop Destination for Amazing Products and Deals!"
+				/>
+				<link rel="icon" href="/favicon.ico" />
 				<title>404 | Not Found</title>
 			</Head>
 			<main className="bg-white dark:bg-gray-900 ">
