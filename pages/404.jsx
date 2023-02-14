@@ -3,13 +3,13 @@
 import Image from "next/image";
 import Link from "next/link";
 import "@/app/globals.css";
-import Head from "@/app/head";
+import Head from "next/head";
 
-export default function Error() {
+export default function Custom404() {
 	return (
 		<>
 			<Head>
-				<title>404 : This page could not be found.</title>
+				<title>404 | Not Found</title>
 			</Head>
 			<main className="bg-white dark:bg-gray-900 ">
 				<div className="container min-h-screen px-6 py-12 mx-auto lg:flex lg:items-center lg:gap-12">

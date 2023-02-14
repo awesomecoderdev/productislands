@@ -4,7 +4,8 @@ import "./globals.css";
 
 export const metadata = {
 	title: {
-		default: process.env.APP_NAME,
+		default:
+			process.env.APP_NAME + " |  Map to Quality Products and Deals!",
 		template: "%s | " + process.env.APP_NAME,
 	},
 };
