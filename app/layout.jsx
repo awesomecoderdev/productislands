@@ -38,7 +38,7 @@ export default function RootLayout({ children, params }) {
 							>
 								<button className="w-full px-5 py-3 transition-colors duration-300 bg-gray-100 rounded-md dark:bg-gray-800 md:w-auto md:mx-6 hover:bg-gray-200 dark:hover:bg-gray-700">
 									<Link
-										href="mailto:awesomecoder.dev@gmail.com"
+										href="mailto:productislands.com@gmail.com"
 										className="flex items-center justify-center -mx-1"
 									>
 										<p className="mx-1 text-sm text-gray-600 dark:text-white pointer-events-none">
